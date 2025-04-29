@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actions sensibles</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f1f5f9; /* gris bleuté moderne */
+      font-family: 'Inter', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px; /* plus mince */
+      overflow: hidden;
+    }
+
+    .banner {
+      width: 100%;
+      text-align: center;
+      background: #ef4444; /* rouge moderne */
+      color: white;
+      padding: 15px 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      animation: pulse 1.5s infinite alternate;
+      border-radius: 8px;
+      margin: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.02);
+        opacity: 0.85;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    Actions sensibles
+  </div>
+</body>
+</html>
